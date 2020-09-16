@@ -1,24 +1,21 @@
-"verses"
-
-vers1 = ("leuk je te ontmoeten, laat me het samenvatten")
-vers2 = ("jouw naam is")
-vers3 = ("je bent:")
-vers4 = ("Oud")
-vers5 = ("en je bent jarig")
 
 "Vragen"
 
-print("Hello, You! Ik ben Yair!")
-print("Wie ben jij?")
+print("Vul je personagestatistieken in")
+
 name = input("Naam: ")
-print = ("hoe oud ben jij?")
 age = input("leeftijd: ")
-print = ("Oh cool, ik ben 19 jaar oud, mijn verjaardag was op de 10e, wanneer was / is die van jou?")
-birthday = input("verjaardag: ")
+day = input("verjaardag - Dag: ")
+month = input("verjaardag - Maand: ")
+year = input("verjaardag - Jaar: ")
+height = input("hoogte: ")
+gender = input("geslacht: ")
+color = input("Lievelingskleur: ")
 
 "samenvatten"
 
-print(vers1)
-print(vers2 + name)
-print(vers3 + age + vers4)
-print(vers5 + birthday)
+print("jouw naam is:", name)
+print("je bent", age, "jaar oud")
+print("je verjaardag is op de", day, "/", month, "/", year)
+print("je bent", height, "meter lang")
+print("en je bent een", gender, "dat hun favoriete kleur", color, "is")
