@@ -1,3 +1,5 @@
+# Copyright (NC) 2020-2026 Yairme
+
 op1 = ("De Python lessen worden gegeven voor Erik, Erwin en ook door Hidde")
 op = ("Opdracht")
 print(op, "1")
