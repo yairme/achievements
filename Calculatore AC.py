@@ -1,3 +1,5 @@
+# Copyright (NC) 2020-2026 Yairme
+
 def add(x, y):
 	return x + y
 def subtract(x,y):
