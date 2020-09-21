@@ -1,3 +1,5 @@
+# Copyright (NC) 2020-2026 Yairme
+
 vers1 = "My name is yair and just to be clear,"
 vers2 = "I am a great gamer its just a disclaimer."
 vers3 = "When im the focus of all, my anxiatie sky rockets."
