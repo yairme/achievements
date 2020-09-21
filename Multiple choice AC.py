@@ -1,3 +1,5 @@
+# Copyright (NC) 2020-2026 Yairme
+
 print("Wat is jouw naam: ")
 naam = input("Naam: ")
 
