@@ -1,11 +1,9 @@
 import random
 from Word import word_list
 
-
 def get_word():
     word = random.choice(word_list)
     return word.upper()
-
 
 def play(word):
     word_completion = "_" * len(word)
@@ -57,7 +55,7 @@ def play(word):
         print(f"Sorry, you ran out of tries. The word was {word} better luck next time.")
 
 def display_hangman(tries):
-    stages = [  # final state: head, torso, both arms, and both legs
+    stages = [ 
                 """
                    --------
                    |      |
@@ -67,7 +65,7 @@ def display_hangman(tries):
                    |     / \\
                    -
                 """,
-                # head, torso, both arms, and one leg
+               
                 """
                    --------
                    |      |
@@ -77,7 +75,7 @@ def display_hangman(tries):
                    |     / 
                    -
                 """,
-                # head, torso, and both arms
+                
                 """
                    --------
                    |      |
@@ -87,7 +85,7 @@ def display_hangman(tries):
                    |      
                    -
                 """,
-                # head, torso, and one arm
+               
                 """
                    --------
                    |      |
@@ -97,7 +95,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head and torso
+                
                 """
                    --------
                    |      |
@@ -107,7 +105,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head
+                
                 """
                    --------
                    |      |
@@ -117,7 +115,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # initial empty state
+                
                 """
                    --------
                    |      |
