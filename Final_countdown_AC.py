@@ -1,7 +1,5 @@
-import sys
 import time
-import vlc
-p = vlc.MediaPlayer("http://your_mp3_url")
+
 while True:
     uin = input(">>> ")
     try:
@@ -19,6 +17,5 @@ while True:
         print(time_left, "\r", end="")
         time.sleep(1)
         when_to_stop -= 1
-        if when_to_stop == 1:
-            p.play()
+        
     
