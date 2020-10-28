@@ -1,4 +1,5 @@
 import time
+import webbrowser
 
 while True:
     uin = input(">>> ")
@@ -17,5 +18,5 @@ while True:
         print(time_left, "\r", end="")
         time.sleep(1)
         when_to_stop -= 1
-        
+    webbrowser.open('https://www.youtube.com/watch?v=HoBa2SyvtpE')
     
